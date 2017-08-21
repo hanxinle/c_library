@@ -107,3 +107,16 @@ Position Advance( Position P )  {
 ElementType Retrieve( Position P )  {
   return P->Element;
 }
+
+void PrintList (List L)  {
+
+if (L == NULL ) Error ("Out of space");
+
+Positon P;
+P = First (L);
+while ( !IsLast (P,L) )  {
+   printf ("%d\n", P-> Element;);
+
+}
+
+}
