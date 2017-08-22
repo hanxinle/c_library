@@ -1,9 +1,7 @@
 #include "list.c"
-
-
-/* 
-
-NOTE: book's answer will just return cur,if do this, the reverselist will not have a head node ,PrintList will not work as hoped.I think it is wrong.It is my method's (as follow) output:
+/*
+Book's answer says return cur.But,the reverselist will not have a head node ,and PrintList will not work as
+planed.Here is my method and output output (inial nex as a head node):
 1 2
 2 1
 1 2 
