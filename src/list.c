@@ -115,7 +115,7 @@ void PrintList (List L)  {
   Positon P;
   P = First (L);
   while ( P != NULL) )  {
-     printf ("%d\n",Retrieve(P));
+     printf ("%d ",Retrieve(P));
      P = Advance (P);
      }
   }
