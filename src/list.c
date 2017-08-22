@@ -110,13 +110,13 @@ ElementType Retrieve( Position P )  {
 
 void PrintList (List L)  {
 
-if (L == NULL ) Error ("Out of space");
-
-Positon P;
-P = First (L);
-while ( !IsLast (P,L) )  {
-   printf ("%d\n", P-> Element;);
-   P = Advance (P);
-}
-
+  if (L == NULL ) pritntf ("Empty List.\n");
+  else {
+  Positon P;
+  P = First (L);
+  while ( P != NULL) )  {
+     printf ("%d\n",Retrieve(P));
+     P = Advance (P);
+     }
+  }
 }
