@@ -116,7 +116,7 @@ Positon P;
 P = First (L);
 while ( !IsLast (P,L) )  {
    printf ("%d\n", P-> Element;);
-
+   P = Advance (P);
 }
 
 }
