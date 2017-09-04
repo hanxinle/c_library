@@ -1,7 +1,8 @@
+#ifndef  TREE_H
+#define  TREE_H
+
 typedef int ElementType;
 
-#ifndef _Tree_H
-#define _Tree_H
 
 struct TreeNode;
 typedef struct TreeNode *Position;
@@ -17,5 +18,5 @@ ElementType Retrieve( Position P );
 void PrintElement(ElementType X);
 void PrintTree(SearchTree T);
 
-#endif  /* _Tree_H */
+#endif  /* TREE_H */
 
