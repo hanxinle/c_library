@@ -34,6 +34,12 @@ int main( )
   printf( "Min is %d, Max is %d\n", Retrieve( FindMin( T ) ),
 	  Retrieve( FindMax( T ) ) );
 
+ 
+  int nodes = CountNodes (T);
+  int leaves = ConuntLeaves (T);
+  int fullnodes = ConuntFull (T);
+  printf ("nodes = %d,leaves = %d,fullnodes = %d \n",nodes,leaves,fullnodes);	 
+	
   return 0;
 }
 
