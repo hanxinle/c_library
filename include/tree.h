@@ -17,6 +17,9 @@ SearchTree Delete( ElementType X, SearchTree T );
 ElementType Retrieve( Position P );
 void PrintElement(ElementType X);
 void PrintTree(SearchTree T);
+int CountNodes (SearchTree T);
+int ConuntLeaves (SearchTree T);
+int ConuntFull (SearchTree T);
 
 #endif  /* TREE_H */
 
