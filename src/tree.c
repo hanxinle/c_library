@@ -112,3 +112,23 @@ void PrintTree (SearchTree T)  {
     PrintTree(T->Right);
   }
 }
+
+int CountNodes (SearchTree T)  {
+	if (T == NULL) return 0;
+	else return 1 + CountNodes (T->Left) + CountNodes (T->Right);
+}
+
+int ConuntLeaves (SearchTree T)  {
+	if (T==NULL)
+		return 0;
+	else if (T->Left == NULL && T ->Right == NULL) 
+		return 1;
+  	else return ConuntLeaves (T->Left) + ConuntLeaves (T->Right);
+}
+
+int ConuntFull (SearchTree T)  {
+	if (T == NULL)
+		return 0;
+	return (T->Left != NULL && T->Right != NULL) +
+		   ConuntFull (T -> Left) + ConuntFull (T -> Right);
+}
