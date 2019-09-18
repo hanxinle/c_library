@@ -1,1 +1,1 @@
-This file for create dir src
+This file for create  src folder.
