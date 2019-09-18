@@ -1,7 +1,4 @@
-# Algorithm
--------
+# Introduction
 
 
-This repository creates for develop a C library to help me be a better programmer.Also,it is a way to learn to develop a software.
-
-avltree
+Coding while learning Data Structures and Algorithm Analysis in C. Data Structures includes linklist,stack,tree,queue,avltree.
