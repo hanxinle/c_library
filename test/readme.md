@@ -3,3 +3,5 @@
 - linkedlist
 - stack
 - queue
+- tree
+- avltree
