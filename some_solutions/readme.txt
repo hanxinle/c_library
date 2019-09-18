@@ -1,3 +1,5 @@
-This part is to show how to use the lib.
+These solutions show how to use the data Structures solve algorithm problems. Some maybe not best.
 
-First, solve the question on Data Structures and Algorithm Analysis in C on linked list, stact ,queue,tree and so on.
+To get more examples.Leetcode is recommended.
+
+
